@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farhan Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Muhammad Farhan</h3>
+        <h1>MERN Stack Developer</h1>
+        <p>
+          Dynamic and motivated recent graduate with a passion for MERN stack development. I've cultivated my skills through personal projects, specializing in frontend excellence with React for both web and mobile applications, and backend proficiency with Node.js, MongoDB, and Express.js.  
+        </p>
+       
+
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <div class="profession-container">
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="images/farhan.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/farhan2.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>
+          Hi there, welcome to my website! I'm Muhammad Farhan, a passionate MERN Stack developer, who enjoys learning new technologies and solving problems
+          with code!
+        </h3>
+        
+        <p>
+          Eager to apply my theoretical knowledge and hands-on experience to contribute to innovative projects spanning both mobile and web development. I thrive on bridging the gap between frontend and backend technologies to deliver seamless user experiences across multiple platforms. With a strong foundation and enthusiasm for learning, I'm excited to embark on a career journey in MERN stack development and make a meaningful impact in the industry.
+
+        </p>
+        
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+    
+      <div class="services-container">
+        <div class="services-box">
+          <img src="https://img.icons8.com/color/452/mongodb.png" alt="MongoDB" />
+          <h3>MongoDB</h3>
+          <div class="overlay"></div>
+        </div>
+        <div class="services-box">
+          <img src="https://img.icons8.com/color/452/react-native.png" alt="React" />
+          <h3>React</h3>
+          <div class="overlay"></div>
+        </div>
+        <div class="services-box">
+          <img src="https://img.icons8.com/color/452/react-native.png" alt="React Native" />
+          <h3>React Native</h3>
+          <div class="overlay"></div>
+        </div>
+        <div class="services-box">
+          <img src="https://img.icons8.com/color/452/nodejs.png" alt="Node.js" />
+          <h3>Node.js</h3>
+          <div class="overlay"></div>
+        </div>
+        <div class="services-box">
+          <img src="https://img.icons8.com/color/452/html-5.png" alt="HTML" />
+          <h3>HTML</h3>
+          <div class="overlay"></div>
+        </div>
+        <div class="services-box">
+          <img src="https://img.icons8.com/color/452/css3.png" alt="CSS" />
+          <h3>CSS</h3>
+          <div class="overlay"></div>
+        </div>
+        <div class="services-box">
+          <img src="https://img.icons8.com/color/452/express.png" alt="Express.js" />
+          <h3>Express.js</h3>
+          <div class="overlay"></div>
+        </div>
+        <div class="services-box">
+        <img src="data:image/png;base64,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" alt="Software Requirement Engineering" />
+          <h3>SRE</h3>
+          <div class="overlay"></div>
+        
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/constructionn.png" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Construction Ease</h4>
+            <p>
+              Designed android application to manage and purchase construction material. other functionalities are proposal creation, bidding, contracts, chat,construction cost calculator.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/plink.png" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Plink Chat App</h4>
+            <p>
+              Chat Application developed using React Native and Nodejs with Mongodb Database.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/laucwave.png" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Audio Player</h4>
+            <p>
+              Audio Player android app developed in React Native.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio.png" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Portfolio</h4>
+            <p>
+              Responsive Portfolio designed.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/speedybuy.png" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>E commerce Site</h4>
+            <p>
+              E commerce site for purchasing turkish rings online.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
