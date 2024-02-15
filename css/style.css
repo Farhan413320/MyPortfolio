@@ -140,7 +140,7 @@ section {
 }
 @media only screen and (max-width: 768px) {
     .home-content h1 {
-        font-size: 2.4rem; /* Adjust the value as needed for smaller screens */
+        font-size: 2.4rem; 
     }
 }
 .home-content p {
